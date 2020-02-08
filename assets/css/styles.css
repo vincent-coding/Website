@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.header {
+    height: 110px;
+    opacity: 1;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+}
+
+#headerBG {
+    background: #222222;
+    position:fixed;
+    width:100%;
+    height: 100px;
+    z-index: 999;
+}
+
+.title {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    color:#c90e0e;
+    z-index: 1000;
+}
+
+.subtitle {
+    position: fixed;
+    top: 50px;
+    left: 33px;
+    z-index: 1000;
+}
+
+.content {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.about {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.red {
+    color: #c90e0e;
+}
+
+.language {
+    display: inline-block;
+    width: 170px;
+    color: #c90e0e;
+}
+
+#nameAnim {
+    display: inline-block;
+    width: 200px;
+}
+
+.icons {
+    position:fixed;
+    top:30px;
+    right: 30px;
+    cursor:pointer;
+    z-index: 1000;
+}
+
+.presentation {
+    font-size: 50px;
+}
+
+.project {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #222222;
+    width: 80%;
+    height:300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.pIMG {
+    float: right;
+    text-align: center;
+    display: block;
+    margin-top:5%;
+    margin-right:5%;
+}
+
+@media (max-width: 850px) {
+    .pIMG {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .curseforge {
+        display: none;
+    }
+}
+
+@media (max-width: 475px) {
+    .twitter {
+        display: none;
+    }
+}
+
+.curseforge {
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.curseforge:hover {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.twitter {
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.twitter:hover {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.github {
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.github:hover {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.limit {
+    position: relative;
+    top:10px;
+    left: 10px;
+    margin: 0px;
+    bottom: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+.pUpdate {
+    position: relative;
+    top:20px;
+    left:10px;
+    font-size:15px;
+    font-style: italic;
+    margin: 0px;
+    bottom: 0px;
+    padding: 0px;
+}
+
+.pName {
+    position: relative;
+    top:25px;
+    left:5px;
+    font-size:35px;
+    font-size: oblique;
+    margin: 0px;
+    bottom: 0px;
+    padding: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: #c90e0e;
+}
+
+.game {
+	text-align: center;
+	width: 100%;
+}
+
+.game iframe {
+	background-color: #222222;
+	width: 80%;
+	height: 300px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: #222222;
+    margin: 0;
+    padding:0;
+    font-size:15px;
+}
+
+.info {
+    position:relative;
+    top: 5px;
+}
