@@ -54,3 +54,7 @@ html, body {
     text-decoration: none;
     color: #000000;
 }
+
+.underline {
+    text-decoration: underline;
+}
